@@ -1,27 +1,39 @@
-body {
-    font-family: sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-    background-color: #f4f4f4;
+@font-face {
+    font-family: 'Recoleta';
+    src: url('fonts/Recoleta-Medium.woff2') format('woff2'),
+         url('fonts/Recoleta-Medium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
 
-.container {
-    background: white;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-    text-align: center;
+@font-face {
+    font-family: 'Recoleta';
+    src: url('fonts/Recoleta-SemiBold.woff2') format('woff2'),
+         url('fonts/Recoleta-SemiBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+
+body {
+     background-color: #ffffff;
 }
 
 .hidden {
     display: none;
 }
 
-#ingredientList {
-    text-align: left;
-    list-style-type: none; /* remove dots */
-    padding: 0;
+
+#recipeList ul {
+     padding-left: 0;
+     list-style-type: none;
+}
+
+.btn-primary, .btn-secondary, .btn-secondary:hover, .btn-primary:hover{
+  background-color: #ff3131 !important;
+  border-color: #ff3131 !important;
+}
+.recipe-card{
+    height: auto;
+
 }
