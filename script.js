@@ -19,7 +19,7 @@ let base64Image = null;
 
 imageUploadContainer.style.display = "block";
 // Set a default image on load
-imagePreview.src = "pantry.jpg";
+imagePreview.src = "public/pantry.jpg";
 imagePreview.style.display = "block";
 
 imageUpload.addEventListener('change', function(event) {
