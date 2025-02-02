@@ -1,0 +1,27 @@
+body {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.hidden {
+    display: none;
+}
+
+#ingredientList {
+    text-align: left;
+    list-style-type: none; /* remove dots */
+    padding: 0;
+}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pantry Recipe Finder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Pantry Recipe Finder</h1>
+        <input type="file" id="imageUpload" accept="image/*">
+        <button id="analyzeButton" disabled>Analyze Pantry</button>
+        <div id="loading" class="hidden">Analyzing...</div>
+        <div id="results" class="hidden">
+            <h2>Detected Ingredients:</h2>
+            <ul id="ingredientList"></ul>
+            <h2 id = "recipeTitle" class = "hidden">Possible Recipe:</h2>
+            <p id="recipeDescription" class = "hidden"></p>
+        </div>
+        <div id="error" class="hidden"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
