@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Recipe Details</title>
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+      <link rel="stylesheet" href="/style.css">
+</head>
+<body style="font-family: 'Recoleta', sans-serif;">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-md-8 text-center mt-3">
+        <h1 id = "recipeTitle"></h1>
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-md-8 text-center">
+       <img id = "recipeImage" class = "rounded img-fluid mx-auto d-block mb-3" src="" style="max-height: 300px;" />
+      </div>
+    </div>
+    <div class="row justify-content-center">
+       <div class="col-md-8">
+        <h2>Ingredients</h2>
+          <ul id = "ingredientsList">
+          </ul>
+       </div>
+    </div>
+     <div class="row justify-content-center">
+        <div class="col-md-8">
+            <h2>Instructions</h2>
+           <div id="instructions"></div>
+       </div>
+    </div>
+    <div class="row justify-content-center mt-3">
+          <div class="col-md-8">
+            <a href="/" class="btn btn-secondary">Back to Recipe List</a>
+        </div>
+    </div>
+ </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+     <script src="/recipe.js"></script>
+</body>
+</html>
